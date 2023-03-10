@@ -1,0 +1,161 @@
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 124px;
+  
+}
+.footer-content_box{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px;
+}
+.block-content{
+    display: flex;
+    gap: 52px;
+}
+
+.footer-list_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: var(--mainColor);
+   
+}
+
+.footer-list_items li a{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+
+
+.footer-block_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.contacts{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.footer-list_icons{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.foter-content_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.foter-content_info span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: var(--mainColor);
+}
+
+
+
+
+@media (max-width: 700px) {
+   
+.footer{
+    padding: 45px 15px 0 15px;
+}
+.footer-content_box{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px;
+}
+.block-content{
+    display: flex;
+    gap: 52px;
+}
+
+.footer-list_items{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.footer-list_items li a{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+
+
+.footer-block_title{
+    font-size: 12px;
+}
+
+.contacts{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.footer-list_icons{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.foter-content_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.foter-content_info span{
+    font-size: 14px;
+}
+    
+}
+
+
+@media (max-width: 550px) {
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 60px;
+        background-color: var(--bgColor);
+        margin-top: 65px;
+    }
+    .contacts{
+        align-items: flex-start;
+    }
+    .foter-content_info{
+        align-items:flex-start;
+    }
+}

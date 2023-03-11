@@ -13,7 +13,7 @@ const createTimerAnimator = () => {
   return (seconds) => {
     clearInterval(intervalId); 
 
-    const remainSec = seconds;
+    let remainSec = seconds;
 
     const updateTimer = () => {
       const hours = Math.floor(remainSec / 3600);
